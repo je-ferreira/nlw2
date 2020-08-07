@@ -87,9 +87,13 @@
     margin-left: 0.8rem; /*pra espaçar o coração*/
 }
 
-@media(max-width: 699px) { /*de 699 pra baixo, aplica*/
+@media(max-width: 1100px) { /*de 699 pra baixo, aplica*/
     :root {
         font-size: 40%;
+    }
+
+    .hero-image img {
+        height: 45rem;
     }
 }
 
